@@ -48,8 +48,8 @@ function CarouselSlider() {
             "I have replicated a footwear e-commerce, with an intuitive and minimalist user interface to buy and sell, with detailed descriptions of the products and high-quality images, it has a 'functional' shopping cart to add or delete items"
           }
           tec={"HTML , JavaScript, React, Tailwind"}
-          url={"https://ecomercezapatos.netlify.app"}
-          url2={"https://github.com/Alan-Britoo/eCOMERS-ZAPATOS"}
+          url={"https://ecommercejncc.netlify.app/"}
+          url2={"https://github.com/ChissgaN/ecommerce.git"}
         />
       </div>
       <div className="px-4">
