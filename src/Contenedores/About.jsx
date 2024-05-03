@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="mt-16 translate translate-x-[25%]">
+    <div className="w-full mt-16 translate max-sm:translate-x-4 sm:translate-x-6 text-justify  md:translate-x-[11%] xl:translate-x-[26%]" style={{ whiteSpace: "normal"}}>
       <div className="">
         <title className=" w-full inline-block  font-semibold text-[42px] text-transparent bg-clip-text bg-gradient-to-r to-pink-600 from-blue-500 p-0 m-0 animate-pulse ">
           About Me
