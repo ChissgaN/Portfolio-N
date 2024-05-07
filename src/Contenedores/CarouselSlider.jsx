@@ -8,6 +8,7 @@ import ABB from "../assets/AirBnB.webp";
 import Temp from "../assets/Clima.png";
 import Ges from "../assets/SistemaDGestion.webp";
 import Bit from "../assets/Bitacora.png";
+import poke from "../assets/pokedex.webp";
 
 function CarouselSlider() {
   // npm install react-slick slick-carousel
@@ -40,31 +41,55 @@ function CarouselSlider() {
 
   return (
     <Slider {...settings} className="flex w-[80%] gap-[5%] mx-auto  ">
-      <div className="px-4">
-        <CardProject
-          foto={EcZ}
-          titulo={"E-Commerce"}
-          desc={
-            "I have replicated a footwear e-commerce, with an intuitive and minimalist user interface to buy and sell, with detailed descriptions of the products and high-quality images, it has a 'functional' shopping cart to add or delete items"
-          }
-          tec={"HTML , JavaScript, React, Tailwind"}
-          url={"https://ecommercejncc.netlify.app/"}
-          url2={"https://github.com/ChissgaN/ecommerce.git"}
-        />
-      </div>
-      <div className="px-4">
+      <div className="px-4 text-center">
         <CardProject
           foto={ABB}
           titulo={"WindBnB"}
           desc={
-            'The accommodation booking platform offers a seamless and convenient way for users to discover, book, and manage accommodations for their travels. With a user-friendly interface and comprehensive search functionalities, users can explore a diverse range of listings including apartments, houses, villas, and more. The platform provides detailed property information, high-quality images, and user reviews to help users make informed decisions.  ".'
+            'The platform offers a seamless and convenient way for users to discover, book, and manage accommodations for their travels. Provides detailed property information to help users make decisions.'
           }
           tec={"HTML , JavaScript, React, Tailwind"}
           url={"https://windbnbjncc.netlify.app/"}
           url2={"https://github.com/ChissgaN/miniProject3.git"}
         />
       </div>
-      <div className="px-4">
+      <div className="px-4 text-center">
+        <CardProject
+          foto={Temp}
+          titulo={"App-Temperature"}
+          desc={
+            "The weather forecasting website provides users with accurate and up-to-date weather information for locations worldwide. Users can easily access current weather conditions."
+          }
+          tec={"HTML , JavaScript, React, Tailwind"}
+          url={"https://weatherappjncc.netlify.app/"}
+          url2={"https://github.com/ChissgaN/pf3JNCC.git"}
+        />
+      </div>
+      <div className="px-4 text-center">
+        <CardProject
+          foto={EcZ}
+          titulo={"E-Commerce"}
+          desc={
+            "I have replicated a footwear e-commerce, with an intuitive and minimalist user interface to buy and sell, with detailed descriptions of the products and images, it has a shopping cart to add or delete items"
+          }
+          tec={"HTML , JavaScript, React, Tailwind"}
+          url={"https://ecommercejncc.netlify.app/"}
+          url2={"https://github.com/ChissgaN/ecommerce.git"}
+        />
+      </div>
+      <div className="px-4 text-center">
+        <CardProject
+          foto={poke}
+          titulo={"Pokédex"}
+          desc={
+            "Explore my Pokédex website. Powered with the PokeAPI, my site features detailed entries and  images for a collection of Pokémon species. It's easy to discover information about your favorite Pokémon."
+          }
+          tec={"HTML , JavaScript, React, Tailwind"}
+          url={"https://pokedexjncc.netlify.app/"}
+          url2={"https://github.com/ChissgaN/pokedex.git"}
+        />
+      </div>
+      {/* <div className="px-4">
         <CardProject
           foto={Bit}
           titulo={"Logs System"}
@@ -75,20 +100,8 @@ function CarouselSlider() {
           url={"https://sistemabitacora-rotsen.netlify.app"}
           url2={"https://github.com/ChissgaN/finalProject4.git"}
         />
-      </div>
-      <div className="px-4">
-        <CardProject
-          foto={Temp}
-          titulo={"App-Temperature"}
-          desc={
-            "The weather forecasting website provides users with accurate and up-to-date weather information for locations worldwide. With intuitive design and user-friendly interface, users can easily access current weather conditions. Whether planning outdoor activities, traveling, or simply staying informed."
-          }
-          tec={"HTML , JavaScript, React, Tailwind"}
-          url={"https://weatherappjncc.netlify.app/"}
-          url2={"https://github.com/ChissgaN/pf3JNCC.git"}
-        />
-      </div>
-      <div className="px-4">
+      </div> */}
+      {/* <div className="px-4">
         <CardProject
           foto={Ges}
           titulo={"Invoicing System"}
@@ -99,7 +112,7 @@ function CarouselSlider() {
           url={"https://sistemafacturarotsen.netlify.app"}
           url2={"https://github.com/Alan-Britoo/PruebaFrontend"}
         />
-      </div>
+      </div> */}
     </Slider>
   );
 }
