@@ -7,6 +7,7 @@ import fotoR from "./assets/me.webp";
 import About from "./Contenedores/About";
 import Robot from "./Contenedores/Robot";
 import CarouselSlider from "./Contenedores/CarouselSlider";
+import Freelancer from "./Contenedores/Freelancer";
 
 function App() {
   const [showAbout, setShowAbout] = useState(false);
@@ -83,7 +84,6 @@ function App() {
         </div>
 
         <CarouselSlider />
-
         <section id="footer" className="py-[2%] w-full max-sm:pb-[3%]">
           <InfoNavbar toggleAbout={toggleAbout} />
         </section>
